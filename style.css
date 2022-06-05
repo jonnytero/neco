@@ -37,6 +37,19 @@ a{
     font-family: 'Poppins', sans-serif;
     padding: 0 12px;
     
+    
+}
+li {
+    display: inline-block;
+    border: 3px dashed #ccc; 
+    background: green;
+    margin: 10px;
+    padding: 4px;
+    position: top right;
+}
+.hunder{
+    position: top left;
+    
 }
 .text-box{
     width: 90%;
@@ -90,7 +103,7 @@ a{
         background: #0b5508;
         height: 100vh;
         width: 200px;
-        top: -800px;      
+        top: 0px;      
         right: 0px;
         text-align: left;
         z-index: 2;
